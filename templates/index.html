@@ -1,0 +1,144 @@
+{% include "header.html" %}
+
+
+
+
+    <!-- Title -->
+
+    <div class="welcome row">
+    <div class="title-text col-lg-6 col-md-12">
+      <h1 class="big-heading">Web Designer & Python Developer based in Tenerife, Spain.</h1>
+  </div>
+      <img class="title-image" src="static/images/laptop-code.svg" alt="laptop">
+
+  </div>
+  </section>
+
+
+
+
+  <!-- Features -->
+
+
+  <section class="white-section" id="features">
+    <div class="container-fluid" id="features">
+
+      <img class="profile-image" src="static/images/profile-image.png">
+          <div class="greeting-text col-lg-6 col-md-12">
+      <h1 class="greeting-title">Hi, I am Erkam nice to meet you!</h1>
+       <h3 class="greeting-description">I design and code simple things & I love what I do! </h3>
+  </div>
+  </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="colored-section" id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Erkam was a great an accomplished hard-working student when I met him. He was an ardent whose performance regularly exceeded expectations. I believe you will find Mr. Kiris to be both cordial and responsible. As his academic record indicates, he approaches his interests with limitless energy and capable of handling and completing numerous assignment simultaneously in a timely manner.</h2>
+          <img class="testimonial-image" src="static/images/esad-image.jpeg" alt="esad-profile">
+          <em>Esad, Ontario Canada</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Erkam was a great an accomplished hard-working student when I met him. He was an ardent whose performance regularly exceeded expectations. I believe you will find Mr. Kiris to be both cordial and responsible. As his academic record indicates, he approaches his interests with limitless energy and capable of handling and completing numerous assignment simultaneously in a timely manner.</h2></h2>
+          <img class="testimonial-image" src="static/images/demhat-image.png" alt="lady-profile">
+          <em>Demhat, Miami, Florida</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"/>
+     </button>
+
+     <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+       <span class="carousel-control-next-icon"/>
+     </button>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="white-section" id="press">
+    <img class="press-images" src="static/images/python.svg" alt="python-logo">
+    <img class="press-images" src="static/images/css3-alt.svg" alt="css-logo">
+    <img class="press-images" src="static/images/html5.svg" alt="java-logo">
+    <img class="press-images" src="static/images/github.svg" alt="github-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+<section class="white-section" id="tools">
+<h2 class="tools-heading">Tools & Programs I Use</h2>
+<div class="row">
+    <div class="card col-lg-4 col-md-6 ">
+      <div class="card-header">
+        <h3>Front-End</h3>
+      </div>
+      <div class="card-body">
+        <h2 class="tools-text">HTML</h2>
+        <h2 class="tools-text">CSS</h2>
+        <h2 class="tools-text">Bootstrap</h2>
+        <h2 class="tools-text">Atom</h2>
+
+
+    </div>
+  </div>
+  <div class="card col-lg-4 col-md-6">
+    <div class="card-header">
+      <h3>Back-End</h3>
+    </div>
+    <div class="card-body">
+      <h2 class="tools-text">Python</h2>
+      <h2 class="tools-text">WTForms</h2>
+      <h2 class="tools-text">Tkinter</h2>
+      <h2 class="tools-text">Flask</h2>
+      <h2 class="tools-text">Pandas</h2>
+
+
+    </div>
+  </div>
+  <div class="card col-lg-4">
+    <div class="card-header">
+      <h3>Data Science & More</h3>
+    </div>
+    <div class="card-body">
+      <h2 class="tools-text">SQL</h2>
+      <h2 class="tools-text">SQLite</h2>
+      <h2 class="tools-text">PostgreSQL</h2>
+      <h2 class="tools-text">Skicit learn</h2>
+      <h2 class="tools-text">Seaborn</h2>
+      <h2 class="tools-text">Numpy</h2>
+      <h2 class="tools-text">Matplotlib</h2>
+      <h2 class="tools-text">PyCharm</h2>
+      <h2 class="tools-text">Github</h2>
+      <h2 class="tools-text">Git</h2>
+
+
+    </div>
+  </div>
+</div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+<div class="container-fluid">
+
+    <h3 class="big-heading">Check out some of my latest projects.</h3>
+    <a class="btn btn-dark btn-lg to-portfolio-button" href="{{url_for('portfolio_page')}}"><i class="fa-solid fa-arrow-right"></i></i> See More</a>
+
+  </section>
+
+
+</div>
+
+
+  <!-- Footer -->
+{% include "footer.html"%}

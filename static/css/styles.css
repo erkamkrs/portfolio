@@ -1,0 +1,227 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight:700;
+}
+
+hr {
+color: white;}
+
+.contact-info{
+color: white;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.tools-heading {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.header-icon {
+ color: white;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 10% 12%;
+
+}
+
+
+
+/* Sections */
+
+
+.colored-section{
+background-color: #495579;
+color: #fff;
+
+}
+
+
+
+.white-section{
+background-color: #fff;
+color: black;
+
+}
+
+.navbar{
+padding: 0 0 4.5rem;
+}
+
+.navbar-nav{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.to-portfolio-button {
+  margin: 2rem;
+}
+
+/* Title Section */
+
+
+#title .container-fluid {
+    text-align: left;
+    padding: 0 12%;
+  }
+
+
+.title-image {
+  width: 30%;
+  float: left;
+  margin-left: 20%;
+  }
+
+
+
+
+/* Features Section */
+#features .container-fluid{
+  text-align: left;
+}
+
+
+
+.profile-image {
+  width: 25%;
+  float: right;
+  margin-right: 1%;
+  }
+
+
+.greeting-description {
+   font-size: 1.5rem;
+}
+
+.greeting {
+   font-weight: 500;
+   line-height: 2;
+
+}
+
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+  /* Testimonial Section */
+
+
+  .testimonial-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+
+  .testimonial-image {
+    width: 13%;
+    border-radius: 100%;
+    margin: 5%;
+  }
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 5%;
+  margin: 1%;
+}
+
+
+
+/* Tools Section */
+
+.tools-text {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.card{
+  padding: 2% 7%
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+
+  }
+
+section .footer-section{
+text-align: center}
+}
+
+footer{
+    background-color: #495579;
+    padding: 5%;
+    text-align: center;
+}
+
+.footer-icon {
+  margin: 2%;
+  color: white;
+}
+
+/* Call To Action Section */
+#cta .container-fluid{
+padding: 5% 0 0 0;
+}
+
+/* Contact Page */
+
+
+/* About Me */
+
+.about-me, .more-about-me{
+line-height: 1.5;
+text-align: left;
+}
+
+.about-me-text {
+  margin-bottom: 10%;
+}
+
+.about-me-image{
+  width: 35%;
+  margin: 0 0 10% 10%;
+
+
+}
+
+
+.basketball-image{
+  width: 35%;
+  margin-left: 13%;
+}
+
+
+.about-me-description{
+font-size: 1.5rem;
+}
