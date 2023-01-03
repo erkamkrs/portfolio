@@ -1,6 +1,5 @@
 # Portfolio Website v0.1
-![alt text](/Users/muhammedkiris/PycharmProjects/Portfolio/static/images/portfolio-image.png)
-
+![alt text](https://github.com/erkamkrs/portfolio/blob/master/static/images/portfolio-image.png)
 ## Description# Portfolio Website v0.1
 
 ## Description
